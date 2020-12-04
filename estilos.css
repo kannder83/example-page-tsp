@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.contenedor {
+  /* border: 3px red solid; */
+  text-align: center;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.caja {
+  width: 400px;
+  border: 5px #fcbf49 outset;
+  border-radius: 20px;
+  padding: 10px;
+  background: linear-gradient(
+    -45deg,
+    rgba(0, 48, 73, 1) 0%,
+    rgba(234, 226, 183, 1) 100%
+  );
+  box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+.contenedor .caja img {
+  width: 250px;
+  border-radius: 50%;
+  border: 5px #d62828 outset;
+  transition: all 0.4s ease-in-out;
+}
+
+.contenedor .caja img:hover {
+  transform: scale(1.1);
+}
+
+.contenedor .caja h1 {
+  color: white;
+  font-weight: 900;
+  font-size: 40px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin: 10px;
+}
+
+.contenedor .caja h2 {
+  color: white;
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.contenedor .caja p {
+  color: white;
+  font-size: 15px;
+}
+
+/*
+Comentario de los links
+*/
+
+.contenedor .caja ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor .caja ul li {
+  list-style: none;
+  margin: 10px;
+}
+
+.contenedor .caja ul li a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  transition: all 0.4s ease-in-out;
+  font-size: 40px;
+}
+
+.contenedor .caja ul li a:hover {
+  color: #fcbf49;
+  transform: scale(1.1);
+}
