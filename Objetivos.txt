@@ -8,3 +8,8 @@
 3. Imagen
 ==============================
 Flex: Clase de Flex
+==============================
+Reto:
+Lista de mercado. UL y OL, luego link
+para ir a una receta con cada ingrediente.
+==============================
